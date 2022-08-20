@@ -47,11 +47,11 @@ WHERE
 	<title>
 		<band height="67" splitType="Stretch">
 			<staticText>
-				<reportElement x="195" y="19" width="171" height="35" uuid="f655b2c3-21f2-47ab-8b9a-ef5e4a70e194"/>
+				<reportElement x="195" y="19" width="71" height="35" uuid="f655b2c3-21f2-47ab-8b9a-ef5e4a70e194"/>
 				<textElement>
 					<font size="16" isBold="true"/>
 				</textElement>
-				<text><![CDATA[COFFEE - VŨ CHIẾN]]></text>
+				<text><![CDATA[COFFEE]]></text>
 			</staticText>
 		</band>
 	</title>

@@ -33,14 +33,14 @@ public class Load extends javax.swing.JDialog {
                 for (int i = 0; i < 100; i++) {
                     jProgressBar1.setValue(i);
                     try {
-                        Thread.sleep(100);
+                        Thread.sleep(10);
                        
                     } catch (Exception e) {
                     }
                 }
                 try {
                     DLThanhToan.thanhtoan.Xuathoadon(id);
-                    Thread.sleep(100);
+                    Thread.sleep(10);
                     JOptionPane.showMessageDialog(null, "Đã xuất hóa đơn xong !");
                     dis();       
                 } catch (Exception e) {

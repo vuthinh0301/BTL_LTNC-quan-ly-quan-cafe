@@ -12,7 +12,6 @@ import view.Banhang.JpBanhang;
 import view.Datban.JpDatban;
 import view.Home.JpHome;
 import view.QuanLy.JpQuanly;
-import view.Thietlap.JpThietLap;
 import view.Thongke.JpThongKe;
 
 /**
@@ -54,7 +53,6 @@ public class frmain extends javax.swing.JFrame{
     JpDatban datban;
     JpQuanly ql;
     JpThongKe tk;
-    JpThietLap tl;
 
     public void reloadPanel(int i) {
         jpLayout.removeAll();
@@ -123,19 +121,7 @@ public class frmain extends javax.swing.JFrame{
 
                 jpLayout.add(datban);
                 break;
-            case 6:
-                if (tl == null) {
-                    tl = new JpThietLap();
-                }
-
-                resetColor(jbanhang);
-                resetColor(Jhome);
-                resetColor(jdatban);
-                setColor(jthietlap);
-                resetColor(jquanly);
-                resetColor(jthongke);
-                jpLayout.add(tl);
-                break;
+                
             default:
                 break;
         }
@@ -166,12 +152,10 @@ public class frmain extends javax.swing.JFrame{
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jthietlap = new javax.swing.JPanel();
-        jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jdatban = new javax.swing.JPanel();
         jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
         jLabel3 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
@@ -272,16 +256,19 @@ public class frmain extends javax.swing.JFrame{
             jbanhangLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jbanhangLayout.createSequentialGroup()
                 .addGap(13, 13, 13)
-                .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, 45, Short.MAX_VALUE)
+                .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, 43, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         jbanhangLayout.setVerticalGroup(
             jbanhangLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jbanhangLayout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addGroup(jbanhangLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                    .addComponent(jLabel10)
+                .addGap(0, 0, 0)
+                .addGroup(jbanhangLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jbanhangLayout.createSequentialGroup()
+                        .addGap(17, 17, 17)
+                        .addComponent(jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addContainerGap())
                     .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)))
         );
 
@@ -328,29 +315,22 @@ public class frmain extends javax.swing.JFrame{
             }
         });
 
-        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/thietlap.png"))); // NOI18N
-
         jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel14.setText("THIẾT LẬP");
 
         javax.swing.GroupLayout jthietlapLayout = new javax.swing.GroupLayout(jthietlap);
         jthietlap.setLayout(jthietlapLayout);
         jthietlapLayout.setHorizontalGroup(
             jthietlapLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jthietlapLayout.createSequentialGroup()
-                .addGap(13, 13, 13)
-                .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, 45, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addContainerGap(68, Short.MAX_VALUE)
                 .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         jthietlapLayout.setVerticalGroup(
             jthietlapLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jthietlapLayout.createSequentialGroup()
-                .addGroup(jthietlapLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                    .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
-                    .addComponent(jLabel14))
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addComponent(jLabel14)
+                .addGap(0, 50, Short.MAX_VALUE))
         );
 
         kGradientPanel1.add(jthietlap, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 520, 250, 50));
@@ -388,9 +368,6 @@ public class frmain extends javax.swing.JFrame{
         );
 
         kGradientPanel1.add(jdatban, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 370, 250, 50));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/chuky.png"))); // NOI18N
-        kGradientPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 250, 70));
         kGradientPanel1.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 62, 250, 10));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/chandung.png"))); // NOI18N
@@ -511,11 +488,9 @@ public class frmain extends javax.swing.JFrame{
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel Jhome;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;

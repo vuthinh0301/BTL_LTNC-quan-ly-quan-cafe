@@ -1,4 +1,6 @@
 ﻿use master
+ALTER SERVER ROLE  [master]  ADD MEMBER [admin];
+GO
 drop database coffee
 create database coffee
 use coffee

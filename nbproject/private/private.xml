@@ -3,16 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/DELL/Desktop/work_thinh/Group2_QLCafe/Coffee_ban_dep_nhat/src/view/Thongke/JpThongKe.java</file>
-            <file>file:/C:/Users/DELL/Desktop/work_thinh/Group2_QLCafe/Coffee_ban_dep_nhat/src/Sql/ConnectDB.java</file>
-            <file>file:/C:/Users/DELL/Desktop/work_thinh/Group2_QLCafe/Coffee_ban_dep_nhat/src/view/Datban/DL_DatBan.java</file>
-            <file>file:/C:/Users/DELL/Desktop/work_thinh/Group2_QLCafe/Coffee_ban_dep_nhat/src/view/QuanLy/DL_SuaNhanvien.java</file>
-            <file>file:/C:/Users/DELL/Desktop/work_thinh/Group2_QLCafe/Coffee_ban_dep_nhat/src/view/frmLogIn.java</file>
-            <file>file:/C:/Users/DELL/Desktop/work_thinh/Group2_QLCafe/Coffee_ban_dep_nhat/src/model/admin.java</file>
-            <file>file:/C:/Users/DELL/Desktop/work_thinh/Group2_QLCafe/Coffee_ban_dep_nhat/src/view/frmain.java</file>
-            <file>file:/C:/Users/DELL/Desktop/work_thinh/Group2_QLCafe/Coffee_ban_dep_nhat/src/controller/banDAO.java</file>
-            <file>file:/C:/Users/DELL/Desktop/work_thinh/Group2_QLCafe/Coffee_ban_dep_nhat/src/view/run.java</file>
-            <file>file:/C:/Users/DELL/Desktop/work_thinh/Group2_QLCafe/Coffee_ban_dep_nhat/src/controller/loginDAO.java</file>
+            <file>file:/C:/Users/20182806/Desktop/BTL_LTNC-quan-ly-quan-cafe/src/view/Banhang/JpBanhang.java</file>
+            <file>file:/C:/Users/20182806/Desktop/BTL_LTNC-quan-ly-quan-cafe/src/controller/donhangDAO.java</file>
+            <file>file:/C:/Users/20182806/Desktop/BTL_LTNC-quan-ly-quan-cafe/src/model/chitietDH.java</file>
+            <file>file:/C:/Users/20182806/Desktop/BTL_LTNC-quan-ly-quan-cafe/src/view/Home/JpHome.java</file>
+            <file>file:/C:/Users/20182806/Desktop/BTL_LTNC-quan-ly-quan-cafe/src/view/Banhang/DLSoLuong.java</file>
+            <file>file:/C:/Users/20182806/Desktop/BTL_LTNC-quan-ly-quan-cafe/src/view/Banhang/jpThucDon.java</file>
+            <file>file:/C:/Users/20182806/Desktop/BTL_LTNC-quan-ly-quan-cafe/src/controller/loginDAO.java</file>
+            <file>file:/C:/Users/20182806/Desktop/BTL_LTNC-quan-ly-quan-cafe/src/model/donhang.java</file>
+            <file>file:/C:/Users/20182806/Desktop/BTL_LTNC-quan-ly-quan-cafe/src/view/Banhang/DLGiamGia.java</file>
+            <file>file:/C:/Users/20182806/Desktop/BTL_LTNC-quan-ly-quan-cafe/src/view/frmain.java</file>
+            <file>file:/C:/Users/20182806/Desktop/BTL_LTNC-quan-ly-quan-cafe/src/view/Banhang/DLThanhToan.java</file>
         </group>
     </open-files>
 </project-private>

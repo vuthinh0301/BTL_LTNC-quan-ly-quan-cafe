@@ -31,12 +31,12 @@ public class loginDAO {
     String sql = "SELECT * FROM admin WHERE username=? and password =?";
         PreparedStatement pr;
        try {
-           pr = cnn.prepareStatement(sql);
+            pr = cnn.prepareStatement(sql);
             pr.setString(1, ad.getUsername());
-        pr.setString(2, ad.getPassword());
-           ResultSet rs = pr.executeQuery();
-           while (rs.next()) {               
-               check =true;
+            pr.setString(2, ad.getPassword());
+            ResultSet rs = pr.executeQuery();
+            while (rs.next()) {               
+               check = true;
            }
        } catch (SQLException ex) {
           JOptionPane.showMessageDialog(null, "Đã xảy ra lỗi khi đăng nhập !");

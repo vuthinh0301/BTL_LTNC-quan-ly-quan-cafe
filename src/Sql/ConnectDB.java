@@ -16,9 +16,9 @@ import java.util.logging.Logger;
  * @author Admin
  */
 public class ConnectDB {
-    private final  String SERVER_PATH ="jdbc:sqlserver://localhost:1433;databaseName=coffee_db";
-    private final String USER ="sa";
-    private final String PASSWORD ="sa";
+    private final  String SERVER_PATH ="jdbc:sqlserver://localhost:1433;databaseName=coffee";
+    private final String USER ="admin";
+    private final String PASSWORD ="1";
         public static Connection cnn;
     public Connection connect(){
         try {

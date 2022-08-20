@@ -13,8 +13,7 @@ public class admin {
     private int id;
     private String username;
     private String password;
-
-  private int lever;
+    private int lever;
 
     public admin() {
     }
